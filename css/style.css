@@ -234,13 +234,12 @@ p {
       }
 
     .js-share-popup {
-      opacity: 0;
+      display: none;
       position: absolute;
     }
 
     .js-share-popup-active {
-      opacity: 1;
-      display: flex;
+      display: inline-flex;
       justify-content: space-evenly;
       width: 20%;
       height: 10%;
@@ -302,8 +301,7 @@ p {
 /* For super large screens to align popup*/
 @media (min-width: 2000px){
   .js-share-popup-active {
-    opacity: 1;
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
     width: 20%;
     height: 10%;
