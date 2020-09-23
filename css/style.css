@@ -235,7 +235,6 @@ p {
 
     .js-share-popup {
       display: none;
-      position: absolute;
     }
 
     .js-share-popup-active {
